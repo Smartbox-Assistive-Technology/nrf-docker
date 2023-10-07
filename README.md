@@ -1,3 +1,5 @@
+**About this fork:** this fork is maintained for internal use. 
+
 # Docker image for building nRF Connect SDK applications
 
 ![Publish Docker](https://github.com/NordicPlayground/nrf-docker/workflows/Publish%20Docker/badge.svg?branch=saga)
