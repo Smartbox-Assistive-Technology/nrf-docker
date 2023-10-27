@@ -7,13 +7,16 @@ jobs:
     strategy:
       matrix:
         sdk_nrf_branch:
+          - v2.5-branch
           - v2.4-branch
-          - v2.2-branch
+          - v2.3-branch
         include:
-          - sdk_nrf_branch: v2.2-branch
-            toolchain_version: v2.2.0
+          - sdk_nrf_branch: v2.5-branch
+            toolchain_version: v2.5.0
           - sdk_nrf_branch: v2.4-branch
             toolchain_version: v2.4.2
+          - sdk_nrf_branch: v2.3-branch
+            toolchain_version: v2.3.0
 
     runs-on: ubuntu-latest
     steps:
